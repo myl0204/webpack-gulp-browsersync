@@ -16,7 +16,7 @@ gulp.task('browser',()=>{
 				middleware:[
 					webpackDevMiddleware(bundler,{
 
-						publicPath:webpackConfig.publicPath,
+						publicPath:webpackConfig.output.publicPath,
 
 						stats:{ color:true},
 

@@ -7,9 +7,9 @@ module.exports = {
 
 	output:{
 
-		publicPath:'/',
+		publicPath:'/js',
 
-		filename:'js/bundle.js'
+		filename:'bundle.js'
 	},
 
 	module:{
